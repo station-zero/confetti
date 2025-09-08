@@ -1,0 +1,38 @@
+body {background:#333}
+
+#confetti, #confetti_flash
+{
+    
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+
+#confetti {
+    display: none;
+}
+
+#confetti_flash 
+{
+    background:#FFFFFF;
+    
+}
+
+.confetti_red, .confetti_green, .confetti_blue, .confetti_yellow
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:50px;
+    height:50px;
+	background-size:100%;
+}
+.confetti_yellow{background-image:url("confetti_img/golden_star.png");}
+.confetti_blue{background-image:url("confetti_img/blue_star.png");}
+.confetti_green{background-image:url("confetti_img/green_star.png");}
+.confetti_red{background-image:url("confetti_img/red_star.png");}
+    
+
